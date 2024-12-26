@@ -17,7 +17,7 @@ const Header = () => {
   return (
     <Wrapper>
       <div className="header">
-        <nav className="navbar ">
+        <nav className="navbar container">
           <div className="navbar-logo">Rony</div>
           <ul
             className={

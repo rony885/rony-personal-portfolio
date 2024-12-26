@@ -13,7 +13,8 @@ const HeroSection = () => {
               <p>Frontend Developer</p>
               <button>Contact Me</button>
             </div>
-            <div className="banner">
+
+            <div className="banner d-flex justify-content-right align-items-end">
               <img src={bannerImg} alt="bannerImg" />
             </div>
           </div>
@@ -26,13 +27,9 @@ const HeroSection = () => {
 const Wrapper = styled.section`
   .banner-section {
     background-color: #475569; /* Slate-600 */
-    padding: 4rem 0;
+   
   }
 
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
 
   .main {
     display: flex;
